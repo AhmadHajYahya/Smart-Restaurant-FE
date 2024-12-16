@@ -1,0 +1,66 @@
+.my-card {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  background-color: #fff2cc;
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  margin-top: 10px;
+}
+
+.my-card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+   background-color: #ffedb5;
+}
+
+.my-card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.user-data-card {
+  width: 100%;
+  height: 600px;
+  border-radius: 30px;
+  background: #fff2cc !important;
+}
+
+.person-icon {
+  width: 90px !important;
+  height: 90px !important;
+  object-fit: cover;
+  vertical-align: middle;
+  border-radius: 100px;
+}
+
+.statistics {
+  width: 200px;
+  height: 100px;
+  background-color: #ffd966 !important;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.dashboard-div {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.dashboard-div:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+.dashboard-div:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}

@@ -1,0 +1,80 @@
+.content > h1 {
+  font-size: 4rem;
+  color: black;
+}
+.content > h3 {
+  font-size: 2rem;
+  color: #ff6100;
+}
+.content > button {
+  background-color: #f4831a;
+  color: black;
+  font-weight: bold;
+  height: 50px;
+}
+.content > button:hover {
+  background-color: #ff9633;
+}
+.home-image {
+  border: solid;
+  border-width: 10px;
+  border-color: #f4831a;
+  width: 90%;
+  height: auto;
+}
+.right-rectangle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f15329;
+  height: 200px;
+  width: 40px;
+}
+.top-rectangle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: #f4831a;
+  height: 30px;
+  width: 190px;
+}
+.three-dots {
+  position: absolute;
+  right: 7%;
+  transform: rotate(90deg);
+  width: 5%;
+}
+.accesories {
+  position: absolute;
+  z-index: 9999;
+}
+.dots {
+  position: absolute;
+  width: 28%;
+  z-index: -1;
+}
+.main-page {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.home-title {
+  font-size: 2.5rem; /* Adjusted font size for better mobile view */
+}
+.home-subtitle {
+  font-size: 1.5rem; /* Adjusted font size for better mobile view */
+}
+.home-text {
+  font-size: 1rem; /* Adjusted font size for better mobile view */
+}
+@media (min-width: 768px) {
+  .home-title {
+    font-size: 4rem; /* Larger font size for larger screens */
+  }
+  .home-subtitle {
+    font-size: 2rem; /* Larger font size for larger screens */
+  }
+  .home-text {
+    font-size: 1.25rem; /* Larger font size for larger screens */
+  }
+}

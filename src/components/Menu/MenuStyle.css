@@ -1,0 +1,28 @@
+.card-image {
+  border-radius: 5px !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-div {
+  height: 110px;
+  width: 150px;
+  padding-bottom: 0;
+  box-shadow: 0 5px 10px 0 rgba(26, 47, 51, 0.15);
+  display: block;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.meal-card {
+  width: 100%;
+  height: auto;
+  background: #d9d9d994;
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  padding: 15px;
+  transition: all 0.5s;
+}

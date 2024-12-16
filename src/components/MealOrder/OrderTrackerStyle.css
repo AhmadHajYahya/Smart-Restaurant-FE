@@ -1,0 +1,48 @@
+.stepper {
+  display: flex;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 15px;
+  height: 60px;
+}
+
+.active {
+  color: white;
+}
+
+.MuiStepLabel-label {
+  font-size: 20px !important;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  color: #f15329 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #f4831a !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: green !important;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+  color: green !important;
+}
+
+.tracker-button {
+  background-color: #f4831a !important;
+  color: black !important;
+  font-weight: bold !important;
+  height: 50px !important;
+}
+
+.tracker-button:hover {
+  background-color: #ff9633 !important;
+}
